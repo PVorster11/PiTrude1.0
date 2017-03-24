@@ -1,0 +1,116 @@
+#PSV Recycler App
+#V1.2.2
+
+
+<ControlCentre>:
+
+    Label:
+        text: 'Control Centre'
+
+#####################  M E N U  #####################
+    StackLayout:
+        orientation: "lr-tb"
+        padding: 5
+        spacing:10
+
+        Button:
+            text: 'Control Centre'
+            size_hint: (.2, .08)
+            #background_color: (0, 0, 255, .3)
+            on_press: root.manager.current = 'controlc'
+
+        Button:
+            text: 'Learn'
+            size_hint: (.2, .08)
+            #background_color: (226, 100, 72, 1)
+            on_press: root.manager.current = 'learn'
+
+        Button:
+            text: 'Tools'
+            size_hint: (.2, .08)
+            #background_color: (59, 0, 218, 1)
+            on_press: root.manager.current = 'tools'
+
+
+<Learn>:
+
+    Label:
+        text: 'Learn'
+
+#####################  M E N U  #####################
+    StackLayout:
+        orientation: "lr-tb"                                                    #left to right, top to bottom
+        padding: 5                                                              #distance between widget & button
+        spacing:10                                                              #distance between button & button
+
+        Button:
+            text: 'Control Centre'
+            size_hint: (.2, .08)
+            #background_color: (0, 0, 255, .3)
+            on_press: root.manager.current = 'controlc'
+
+        Button:
+            text: 'Learn'
+            size_hint: (.2, .08)
+            #background_color: (226, 100, 72, 1)
+            on_press: root.manager.current = 'learn'
+
+        Button:
+            text: 'Tools'
+            size_hint: (.2, .08)
+            #background_color: (59, 0, 218, 1)
+            on_press: root.manager.current = 'tools'
+
+
+<Tools>:
+
+    Label:
+        text: 'Tools'
+
+#####################  M E N U  #####################
+    StackLayout:
+        orientation: "lr-tb"
+        padding: 5
+        spacing:10
+
+        Button:
+            text: 'Control Centre'
+            size_hint: (.2, .08)
+            #background_color: (0, 0, 255, .3)
+            on_press: root.manager.current = 'controlc'
+
+        Button:
+            text: 'Learn'
+            size_hint: (.2, .08)
+            #background_color: (226, 100, 72, 1)
+            on_press: root.manager.current = 'learn'
+
+        Button:
+            text: 'Tools'
+            size_hint: (.2, .08)
+            #background_color: (59, 0, 218, 1)
+            on_press: root.manager.current = 'tools'
+
+
+
+<Manager>:
+    id: screen_manager
+
+    screen_controlc : screen_controlc
+    screen_learn : screen_learn
+    screen_tools : screen_tools
+
+    ControlCentre:
+        id: screen_controlc
+        name: 'controlc'
+        manager: screen_manager
+
+    Learn:
+        id: screen_learn
+        name: 'learn'
+        manager: screen_manager
+
+    Tools:
+        id: screen_tools
+        name: 'tools'
+        manager: screen_manager
