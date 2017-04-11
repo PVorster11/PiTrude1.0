@@ -4,11 +4,11 @@
 
 ### Open Source Embedded Design
 
-#### Loughborough University Finalist (Product Design & Technology BSc Hons. Final Year Project)
+#### _Loughborough University Finalist (Product Design & Technology BSc Hons. Final Year Project)_
 
-##### Product Design, Embedded Design, OpenSource, Sustianability, Education,
+##### _Product Design, Embedded Design, OpenSource, Sustianability, Education_
 
-===========================================================
+--------------
 
 # Hardware:
 
@@ -82,7 +82,7 @@ Red (-) & Yellow (+) connection
 
  --------------
 
-#### Inspired by/Contributors:
+ ##### Inspired by/Contributors:
 
  David Hakkens (Shredder & Extruder designs & Precious Plastics Community) - https://davehakkens.nl/tag/preciousplastic
 
