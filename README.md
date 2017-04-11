@@ -2,11 +2,11 @@
 
 ## Plastic Recycler & Education Tool
 
-### Open Source Embedded Design
+Open Source Embedded Design
 
-#### _Loughborough University Finalist (Product Design & Technology BSc Hons. Final Year Project)_
+_Loughborough University Finalist (Product Design & Technology BSc Hons. Final Year Project)_
 
-##### _Product Design, Embedded Design, OpenSource, Sustianability, Education_
+_Product Design, Embedded Design, OpenSource, Sustianability, Education_
 
 --------------
 
