@@ -82,7 +82,7 @@ Red (-) & Yellow (+) connection
 
  --------------
 
- ##### Inspired by/Contributors:
+#### Inspired by/Contributors:
 
  David Hakkens (Shredder & Extruder designs & Precious Plastics Community) - https://davehakkens.nl/tag/preciousplastic
 
